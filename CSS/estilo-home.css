@@ -1,0 +1,130 @@
+/*pagina de teste principal*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background: blue;
+    border-bottom: 2px solid #666666;
+}
+
+h1 {
+    margin: 1em 0 1em 3em;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+form {
+    display: inline-block;
+    margin: 0 0 0 35em;
+    font-weight: bold;
+}
+
+.input-padrao {
+    margin-right: 2em;
+}
+
+.login {
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.login:hover {
+    background: cadetblue;
+}
+
+.principal {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    font-size: 18px;
+}
+
+.titulos {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 2em 0;
+}
+
+#testenegrito {
+    color: rgb(255, 71, 5)
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.secundario {
+    background: linear-gradient(#FFFFFF, #999999)
+
+}
+.secundario p, nav p {
+    text-align: left;
+    padding: 0 0 2em 2em;
+    font-size: 18px;
+}
+
+.lista {
+    font-style: italic;
+    margin-left: 25px; 
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 35em 0 2em;
+}
+
+.pontos:before {
+    content: "✯";
+}
+
+.secundario li {
+    font-style: italic;
+    margin-top: 20px;
+}
+.imagemnerf {
+    height: 300px;
+    width: 30%;
+}
+
+.terciario {
+    background: #999999;
+}
+
+nav li {
+    padding: 1em 0 1em 2em
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkcyan;
+
+}
+
+nav li a:hover {
+    opacity: 60%;
+    text-decoration: underline;
+}
+
+footer {
+    background: #000000;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #FFFFFF;
+    margin: 20px 0 0;
+}
+
