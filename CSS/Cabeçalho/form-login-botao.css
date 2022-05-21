@@ -1,0 +1,9 @@
+.form__login--botao {
+    background: var(--verde-botao);
+    border: none;
+    border-radius: 8px;
+    color: var(--branco);
+    font-weight: bold;
+    padding: .5rem;
+    text-transform: uppercase;
+}

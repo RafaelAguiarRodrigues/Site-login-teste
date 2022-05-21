@@ -3,28 +3,38 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Minha primeira página com HTML5 e CSS3">
+        <link rel="shortcut icon" href="./Img/codigo.png" type="image/x-icon">
         <title>Página de teste</title>
-        <link rel="stylesheet" href="CSS/reset.css">
-        <link rel="stylesheet" href="CSS/estilo-home.css">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/reset.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/Cabeçalho/cabecalho.css">
+        <link rel="stylesheet" href="./CSS/Cabeçalho/cabecalho-logo.css">
+        <link rel="stylesheet" href="./CSS/Cabeçalho/cabecalho-form-login.css">
+        <link rel="stylesheet" href="./CSS/Cabeçalho/form-login-pergunta.css">
+        <link rel="stylesheet" href="./CSS/Cabeçalho/form-login-input.css">
+        <link rel="stylesheet" href="./CSS/Cabeçalho/form-login-botao.css">
     </head>
     <body>
-        <header>
-            <h1>Página de Testes</h1>
-            <form>
-                <label>Nome:</label>
-                <input type="text" id="login-nome" class="input-padrao" required placeholder="Seu nome">
+        <header class="cabecalho">
+            <h1 class="cabecalho__logo">Página de Testes</h1>
+            <form class="cabecalho__form___login">
+                <label class="form__login--pergunta">Nome:</label>
+                <input type="text" id="login-nome" class="form__login--input" required placeholder="Digite seu nome">
                 
-                <label>Senha:</label>
-                <input type="password" id="login-senha" class="input-padrao" required placeholder="Sua senha">
+                <label class="form__login--pergunta">Senha:</label>
+                <input type="password" id="login-senha" class="form__login--input" required placeholder="Digite sua senha">
            
-                <input type="submit" value="Login" class="login">
+                <input type="submit" value="Login" class="form__login--botao">
             </form>
         </header>
     
         <main>    
             <div class="principal">
-                <h2 class="titulos">Teste Primeira Parte</h2>
+                <h2 class="titulos">Primeiro Titulo</h2>
             
                 <p>Olá, isso é um <strong id="testenegrito">teste</strong> com o objetivo de mostrar oque aprendi em <em>HTML5 e CSS3</em> com o objetivo de me aprimorar e corrigir erros, esse teste esta sendo realizado em 21/12/2021.</p>
             

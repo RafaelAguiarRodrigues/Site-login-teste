@@ -1,34 +1,14 @@
 /*pagina de teste principal*/
+:root {
+    --branco: #FFFFFF;
+    --verde-botao: #18dd11;
+
+    --pacifico: 'Pacifico', cursive;
+}
+
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-header {
-    background: blue;
-    border-bottom: 2px solid #666666;
-}
-
-h1 {
-    margin: 1em 0 1em 3em;
-    font-weight: bold;
-    color: #FFFFFF;
-    display: inline-block;
-}
-
-form {
-    display: inline-block;
-    margin: 0 0 0 35em;
-    font-weight: bold;
-}
-
-.input-padrao {
-    margin-right: 2em;
-}
-
-.login {
-    font-weight: bold;
-    border: 1px solid black;
-    border-radius: 3px;
 }
 
 .login:hover {
