@@ -2,6 +2,7 @@
 :root {
     --branco: #FFFFFF;
     --verde-botao: #18dd11;
+    --verde-botao-cima: #158811;
 
     --pacifico: 'Pacifico', cursive;
 }
@@ -9,10 +10,6 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-.login:hover {
-    background: cadetblue;
 }
 
 .principal {

@@ -2,8 +2,18 @@
     background: var(--verde-botao);
     border: none;
     border-radius: 8px;
+    box-sizing: border-box;
     color: var(--branco);
     font-weight: bold;
     padding: .5rem;
     text-transform: uppercase;
+}
+
+.form__login--botao:hover {
+    background: var(--verde-botao-cima);
+    cursor: pointer;
+}
+
+.form__login--botao:active {
+    box-shadow: inset 2px 2px 0 black;
 }
