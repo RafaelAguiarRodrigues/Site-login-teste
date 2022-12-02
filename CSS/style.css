@@ -6,7 +6,7 @@
 @import url("./Cabeçalho/form-login-input.css");
 @import url("./Cabeçalho/form-login-pergunta.css");
 /* Principal */
-
+@import url("./Principal/principal.css");
 /* Rodape */
 @import url("./rodape/rodape.css");
 
@@ -28,23 +28,6 @@ body {
     font-family: var(--fonte-principal);
 }
 
-.principal {
-    background-color: var(--branco);
-    font-size: 18px;
-    text-align: center;
-}
-
-.conteudo__titulo {
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    margin: 2em 0;
-}
-
-.conteudo__texto {
-    margin: 1em 2em;
-}
-
 #testenegrito {
     color: var(--vermelho);
     font-weight: bold;
@@ -55,24 +38,33 @@ body {
 }
 
 .conteudoLista {
-    background: linear-gradient(#FFFFFF, #999999)
-
+    background: linear-gradient(var(--branco), var(--cinza));
+    padding: 0 2em;
 }
-.conteudoLista p, nav p {
-    text-align: left;
-    padding: 0 0 2em 2em;
+
+.conteudoLista__titulo {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.conteudoLista__tituloLista {
     font-size: 18px;
+    padding: 0 0 2em 2em;
+    text-align: left;
 }
 
 .conteudoLista__lista {
-    font-style: italic;
-    margin-left: 25px; 
     display: inline-block;
+    font-style: italic; 
+    margin-bottom: 3em;
+    margin-right: 25em;
+    text-align: left;
     vertical-align: top;
-    padding: 0 35em 0 2em;
 }
 
-.conteudo__lista__pontos:before {
+.conteudoLista__lista___pontos:before {
     content: "✯";
 }
 
@@ -82,26 +74,33 @@ body {
 }
 .conteudoLista__imagem {
     height: 300px;
+    margin-bottom: 3em;
     width: 30%;
 }
 
 .links {
-    background: #999999;
+    background: var(--cinza);
+    padding: 2em 0;
 }
 
-.links__navecacao li {
-    padding: 1em 0 1em 2em
+.links__titulo {
+    text-align: left;
+    margin-bottom: 2em;
+    margin-left: 5em;
 }
 
-.links__navecacao a {
-    text-transform: uppercase;
+.links__navecacao .links__lista___item {
+    padding: 1em 0 1em 2em;
+}
+
+.link__lista___link {
+    color: darkcyan;
     font-weight: bold;
     text-decoration: none;
-    color: darkcyan;
-
+    text-transform: uppercase;
 }
 
-.links__navecacao li a:hover {
+.link__lista___link:hover {
     opacity: 60%;
     text-decoration: underline;
 }

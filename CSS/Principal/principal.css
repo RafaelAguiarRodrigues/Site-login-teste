@@ -1,0 +1,16 @@
+.principal {
+    background-color: var(--branco);
+    font-size: 18px;
+    text-align: center;
+}
+
+.conteudo__titulo {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.conteudo__texto {
+    margin: 1em 2em;
+}
