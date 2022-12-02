@@ -1,75 +1,81 @@
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="description" content="Minha primeira página com HTML5 e CSS3">
-        <link rel="shortcut icon" href="./Img/codigo.png" type="image/x-icon">
-        <title>Página de teste</title>
-        <link rel="stylesheet" href="./CSS/reset.css">
-        <link rel="stylesheet" href="./CSS/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./CSS/Cabeçalho/cabecalho.css">
-        <link rel="stylesheet" href="./CSS/Cabeçalho/cabecalho-logo.css">
-        <link rel="stylesheet" href="./CSS/Cabeçalho/cabecalho-form-login.css">
-        <link rel="stylesheet" href="./CSS/Cabeçalho/form-login-pergunta.css">
-        <link rel="stylesheet" href="./CSS/Cabeçalho/form-login-input.css">
-        <link rel="stylesheet" href="./CSS/Cabeçalho/form-login-botao.css">
-    </head>
-    <body>
-        <header class="cabecalho">
-            <h1 class="cabecalho__logo">Página de Testes</h1>
-            <form class="cabecalho__form___login">
-                <label class="form__login--pergunta">Nome:</label>
-                <input type="text" id="login-nome" class="form__login--input" required placeholder="Digite seu nome">
-                
-                <label class="form__login--pergunta">Senha:</label>
-                <input type="password" id="login-senha" class="form__login--input" required placeholder="Digite sua senha">
-           
-                <input type="submit" value="Login" class="form__login--botao">
-            </form>
-        </header>
-    
-        <main class="Principal">
-            <section class="principal__conteudo">
-                <article class="conteudo__primeiraParte">
-                    <h2 class="titulos">Primeiro Titulo</h2>
-                
-                    <p>Olá, isso é um <strong id="testenegrito">teste</strong> com o objetivo de mostrar oque aprendi em <em>HTML5 e CSS3</em> com o objetivo de me aprimorar e corrigir erros, esse teste esta sendo realizado em 21/12/2021.</p>
-                
-                    <p>Então esta vendo todos os elementos com seus devidos <strong>destaques</strong> e espaçamentos? Ou com as imagens nos locais devidos ou ate mesmo o texto, se caso esteja vendo tudo corretamente significa que eu acertei.</p>
-                
-                    <p>Encerrando aqui por enquanto a parte mais textual(do conteudo), o quê esta achando da página? bonita ou feia? bem organizada?</p>
-                </article>
-                <article class="secundario">
-                    <h3 class="titulos">Teste Segunda Parte</h3>
-            
-                    <p>Segue o teste de lista:</p>
-                        <ul class="lista">
-                            <li class="pontos">primeiro ponto do teste de nossa lista</li>
-                            <li class="pontos">segundo ponto</li>
-                            <li class="pontos">terceiro ponto</li>
-                            <li class="pontos">quarto ponto</li>
-                        </ul>
-                    <img src="Img/testeimagen.jpg" class="imagemnerf" alt="Imagem de uma Nerf">
-                </article>
-                <article class=terciario>
-                    <nav>
-                    <p>Alguns links a seguir:</p>     
-                            <ul class= navegacao>
-                               <li><a href="produtos.html">Link 1</a></li>
-                                <li><a href=index.html>Link 2</a></li>
-                                <li><a href= nada.html>Link 3</a></li>
-                            </ul>
-                    </nav>
-                </article>
-            </section>    
-        </main>
-        <footer>
-            <p class="copyright">&copy; Copyright Rafael Aguiar Rodrigues</p>
-        </footer>
-        <script src="Js/teste.js"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Minha primeira página com HTML5 e CSS3">
+    <link rel="shortcut icon" href="./Img/codigo.png" type="image/x-icon">
+    <title>Página de teste</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__logo">Página de Testes</h1>
+        <form class="cabecalho__form___login">
+            <label class="form__login--pergunta">Nome:</label>
+            <input type="text" id="login-nome" class="form__login--input" required placeholder="Digite seu nome">
+
+            <label class="form__login--pergunta">Senha:</label>
+            <input type="password" id="login-senha" class="form__login--input" required placeholder="Digite sua senha">
+
+            <input type="submit" value="Login" class="form__login--botao">
+        </form>
+    </header>
+
+    <main class="principal">
+        <section class="conteudo">
+            <h2 class="conteudo__titulo">Primeiro Titulo</h2>
+
+            <p class="conteudo__texto">Olá, isso é um <strong id="testenegrito">teste</strong> com o objetivo de
+                mostrar oque aprendi em <em class="italico">HTML5 e CSS3</em> com o objetivo de me aprimorar e corrigir erros, esse
+                teste esta sendo realizado em 21/12/2021.</p>
+
+            <p class="conteudo__texto">Então esta vendo todos os elementos com seus devidos <strong>destaques</strong> e
+                espaçamentos? Ou
+                com as imagens nos locais devidos ou ate mesmo o texto, se caso esteja vendo tudo corretamente
+                significa que eu acertei.</p>
+
+            <p class="conteudo__texto">Encerrando aqui por enquanto a parte mais textual(do conteudo), o quê esta
+                achando da página? bonita
+                ou feia? bem organizada?</p>
+        </section>
+        <section class="conteudoLista">
+            <h2 class="conteudoLista__titulo">Teste Segunda Parte</h2>
+
+            <h3 class="conteudoLista__titulo_lista">Segue o teste de lista:</h3>
+            <ul class="conteudoLista__lista">
+                <li class="conteudoLista__lista__pontos">primeiro ponto do teste de nossa lista</li>
+                <li class="conteudoLista__lista__pontos">segundo ponto</li>
+                <li class="conteudoLista__lista__pontos">terceiro ponto</li>
+                <li class="conteudoLista__lista__pontos">quarto ponto</li>
+            </ul>
+
+            <img src="Img/testeimagen.jpg" class="conteudoLista__imagem" alt="Imagem de uma Nerf">
+        </section>
+
+        <section class="links">
+            <nav class="links__navecacao">
+                <p>Alguns links a seguir:</p>
+                <ul class=navegacao>
+                    <li><a href="produtos.html">Link 1</a></li>
+                    <li><a href=index.html>Link 2</a></li>
+                    <li><a href=nada.html>Link 3</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="copyright">&copy; Copyright Rafael Aguiar Rodrigues</p>
+    </footer>
+    <script src="Js/teste.js"></script>
+</body>
+
 </html>

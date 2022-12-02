@@ -1,9 +1,8 @@
 .cabecalho__logo {
     color: var(--branco);
-    font-family: var(--pacifico);
+    font-family: var(--fonte-titulo);
     font-size: 3rem;
     font-weight: bold;
-    margin: 0;
     margin-left: 2rem;
     width: 45%;
 }

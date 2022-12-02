@@ -1,57 +1,70 @@
-/*pagina de teste principal*/
+/* cabecalho */
+@import url("./Cabeçalho/cabecalho.css");
+@import url("./Cabeçalho/cabecalho-form-login.css");
+@import url("./Cabeçalho/cabecalho-logo.css");
+@import url("./Cabeçalho/form-login-botao.css");
+@import url("./Cabeçalho/form-login-input.css");
+@import url("./Cabeçalho/form-login-pergunta.css");
+/* Principal */
+
+/* Rodape */
+@import url("./rodape/rodape.css");
+
 :root {
+    --azul: rgb(38, 99, 231);
     --branco: #FFFFFF;
+    --cinza: #999999;
     --verde-botao: #18dd11;
     --verde-botao-cima: #158811;
+    --vermelho: rgb(255, 34, 5);
+    --preto: #000000;
 
-    --pacifico: 'Pacifico', cursive;
+    --fonte-principal: 'Source Sans Pro', sans-serif;
+    --fonte-titulo: 'Pacifico', cursive;
 }
 
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--fonte-principal);
 }
 
 .principal {
-    background-color: #FFFFFF;
+    background-color: var(--branco);
+    font-size: 18px;
     text-align: center;
 }
 
-.principal p {
-    margin: 0 0 1em;
-    font-size: 18px;
-}
-
-.titulos {
+.conteudo__titulo {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
     margin: 2em 0;
 }
 
+.conteudo__texto {
+    margin: 1em 2em;
+}
+
 #testenegrito {
-    color: rgb(255, 71, 5)
-}
-
-em {
-    font-style: italic;
-}
-
-strong {
+    color: var(--vermelho);
     font-weight: bold;
 }
 
-.secundario {
+.italico {
+    font-style: italic;
+}
+
+.conteudoLista {
     background: linear-gradient(#FFFFFF, #999999)
 
 }
-.secundario p, nav p {
+.conteudoLista p, nav p {
     text-align: left;
     padding: 0 0 2em 2em;
     font-size: 18px;
 }
 
-.lista {
+.conteudoLista__lista {
     font-style: italic;
     margin-left: 25px; 
     display: inline-block;
@@ -59,28 +72,28 @@ strong {
     padding: 0 35em 0 2em;
 }
 
-.pontos:before {
+.conteudo__lista__pontos:before {
     content: "✯";
 }
 
-.secundario li {
+.conteudoLista__lista__pontos {
     font-style: italic;
     margin-top: 20px;
 }
-.imagemnerf {
+.conteudoLista__imagem {
     height: 300px;
     width: 30%;
 }
 
-.terciario {
+.links {
     background: #999999;
 }
 
-nav li {
+.links__navecacao li {
     padding: 1em 0 1em 2em
 }
 
-nav a {
+.links__navecacao a {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
@@ -88,20 +101,7 @@ nav a {
 
 }
 
-nav li a:hover {
+.links__navecacao li a:hover {
     opacity: 60%;
     text-decoration: underline;
 }
-
-footer {
-    background: #000000;
-    text-align: center;
-    padding: 40px 0;
-}
-
-.copyright {
-    font-size: 13px;
-    color: #FFFFFF;
-    margin: 20px 0 0;
-}
-

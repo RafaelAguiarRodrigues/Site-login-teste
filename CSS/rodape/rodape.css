@@ -1,0 +1,10 @@
+.rodape {
+    background: var(--preto);
+    padding: 3.5em 0;
+    text-align: center;
+}
+
+.copyright {
+    color: var(--cinza);
+    font-size: 13px;
+}
